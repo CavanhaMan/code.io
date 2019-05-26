@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,39 +33,36 @@
 
     <section id="cursos">
         <h1 class="title">Cursos</h1>
-
-        <div class="card">
-            <a href="web1.html">Fundamentos de Web Design I</a></div>
-        <div class="card disabled">Sistemas Operacionais</div>
-        <div class="card disabled">Lógica de Programação</div>
-        <div class="card disabled">Inglês Instrumental</div>
-        <div class="card disabled">Metodologia Científica</div>
-        <div class="card disabled">Arquitetura e Organização de Computadores</div>
+		<div class="containerVideos">
+			<div class="card"><a href="web1.html">Fundamentos de Web Design I</a></div>
+			<div class="card disabled">Sistemas Operacionais</div>
+			<div class="card disabled">Lógica de Programação</div>
+			<div class="card disabled">Inglês Instrumental</div>
+			<div class="card disabled">Metodologia Científica</div>
+			<div class="card disabled">Arquitetura e Organização de Computadores</div>
+		</div>
     </section>
 
     <section id="opinioes">
         <h1 class="title">Opiniões</h1>
-        <div class="container">
+		<div class="containerFale">
             <form>
                 <div class="container">
                     <label for="comentario"><b>Deixe aqui seu comentário:</b></label>
-
-                    <textarea name="mensagem" placeholder="Digite aqui sua mensagem" id="mensagem" cols="30" rows="10"
-                        required></textarea>
+                
+                    <textarea name="mensagem" placeholder="Digite aqui sua mensagem" id="mensagem" cols="30" rows="10" required></textarea>
 
                     <hr>
 
-                    <button type="submit" class="btnEnviar" id="btnEnviar" onclick="enviarOpiniao()">Enviar</button>
+					<button type="submit" class="btnEnviar" id="btnEnviar1" onclick="enviarOpiniao()">Enviar</button>
                 </div>
-
             </form>
-        </div>
+          </div>
     </section>
 
     <section id="quemSomos">
         <h1 class="title">Quem Somos</h1>
-
-        <div class="card cardQuemSomos">
+		  <div class="card cardQuemSomos">
             <div class="contatos">
                 <table>
                     <tr>
@@ -103,13 +99,12 @@
                     de Computadores, Metodologia Científica, Sistemas Operacionais e Lógica de Programação,
                     através de vídeoaulas, listas de exercícios online, apostilas, etc.</p>
             </div>
-        </div>
+          </div>
     </section>
 
     <section id="mapaDoSite">
         <h1 class="title">Mapa do site</h1>
         <div class="card cardMapa">
-            <div class="divMapa">
                 <ul>
                     <li><a href="#">Página inicial</a></li>
                     <li><a href="#cursos">Cursos</a>
@@ -128,11 +123,12 @@
                     <li><a href="#contato">Fale conosco</a></li>
                 </ul>
             </div>
-        </div>
+
     </section>
 
     <section id="contato">
         <h1 class="title">Fale Conosco</h1>
+		<div class="containerFale">
         <form>
             <div class="container">
                 <label for="nome"><b>Nome</b></label>
@@ -153,8 +149,8 @@
             </div>
 
         </form>
+		</div>	
     </section>
 
 </body>
-
 </html>

@@ -1,5 +1,4 @@
-body,
-html {
+body,html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -207,14 +206,6 @@ section#cursos {
     height: 80%;
 }
 
-/* Mapa do Site - centralizar conteúdo */
-.divMapa {
-    position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .divVideo {
     position: absolute;
     left: 5%;
@@ -227,8 +218,20 @@ table,tr,td,th {
 }
 
 /* Fale conosco - centralizar conteúdo */
+.containerVideos {
+    width: 90%;
+    height: 80%;
+    cursor: auto;
+    position: relative;
+	top: 45%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+/* Fale conosco - centralizar conteúdo */
 .containerFale {
-    width: 80%;
+    width: 90%;
     height: 80%;
     cursor: auto;
     position: relative;
@@ -334,5 +337,5 @@ hr {
     float: right;
 }
 .cardMapa,.divMapa {
-	/*height:auto !important;*/
+	height:auto !important;
 }
