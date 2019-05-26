@@ -10,7 +10,9 @@ body,html {
 * {
     font-size: 17px;
 }
-
+a{
+	text-decoration:none;
+}
 .navbar-fixed {
     position: fixed;
     height: 45px;
@@ -166,8 +168,8 @@ section#cursos {
 }
 
 .cardQuemSomos {
-    width: 45%;
-    height: 50%;
+    width: 50%;
+    height: 40%;
     left: 24%;
     cursor: auto;
     border: 3px solid #f1f1f1;
@@ -336,6 +338,19 @@ hr {
 .acoesForm1 {
     float: right;
 }
-.cardMapa,.divMapa {
+
+#objetivo{
+	text-align:justify;
+}
+
+.cardMapa,.divMapa,.cardQuemSomos {
 	height:auto !important;
+}
+
+/*table, th,td {border: 1px solid black;}*/
+table, th {
+  width:100%;
+}
+#pricol{
+	width:400px;
 }
