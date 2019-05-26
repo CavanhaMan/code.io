@@ -27,6 +27,7 @@ ul {
     overflow: hidden;
 }
 
+/* Mapa do Site */
 .cardMapa a {
     display: block;
     padding: 6px 6px;
@@ -174,6 +175,7 @@ section#cursos {
     position: absolute;
 }
 
+/* Mapa do Site */
 .cardMapa {
     width: 45%;
     height: 40%;
@@ -205,9 +207,12 @@ section#cursos {
     height: 80%;
 }
 
+/* Mapa do Site - centralizar conteúdo */
 .divMapa {
     position: absolute;
-    left: 27%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .divVideo {
@@ -221,23 +226,36 @@ table,tr,td,th {
     width:800px;
 }
 
+/* Fale conosco - centralizar conteúdo */
+.containerFale {
+    width: 80%;
+    height: 80%;
+    cursor: auto;
+    position: relative;
+	top: 45%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
 .container {
     padding: 16px;
     background-color: white;
 }
 
+/* Fale conosco */
 input[type=text],
 input[type=password],
 input[type=tel],
 textarea {
-    width: 98.5%;
+    width: 97%;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #f1f1f1;
+    background: #ddd;
 }
 
+/* Fale conosco */
 input[type=text]:focus,
 input[type=password]:focus,
 input[type=tel]:focus,
@@ -314,4 +332,7 @@ hr {
 
 .acoesForm1 {
     float: right;
+}
+.cardMapa,.divMapa {
+	/*height:auto !important;*/
 }
