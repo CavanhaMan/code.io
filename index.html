@@ -46,8 +46,8 @@
     <section id="opinioes">
         <h1 class="title">Opiniões</h1>
 		<div class="containerFale">
-            <form>
-                <div class="container">
+            <div class="container">
+				<form name="enviaOpiniao">
                     <label for="comentario"><b>Deixe aqui seu comentário:</b></label>
                 
                     <textarea name="mensagem" placeholder="Digite aqui sua mensagem" id="mensagem" cols="30" rows="10" required></textarea>
@@ -55,8 +55,8 @@
                     <hr>
 
 					<button type="submit" class="btnEnviar" id="btnEnviar1" onclick="enviarOpiniao()">Enviar</button>
-                </div>
-            </form>
+				</form>
+            </div>
           </div>
     </section>
 
@@ -130,26 +130,24 @@
     <section id="contato">
         <h1 class="title">Fale Conosco</h1>
 		<div class="containerFale">
-        <form>
-            <div class="container">
+          <div class="container">
+			<form name="enviaMensagem">
                 <label for="nome"><b>Nome</b></label>
-                <input type="text" placeholder="Digite o seu nome" name="nome" id="nome" required>
+                <input type="text" placeholder="Digite o seu nome" name="nome" id="nome" required />
 
                 <label for="wpp"><b>Número whatsapp</b></label>
-                <input type="tel" placeholder="Digite o seu o número do seu whatsapp" name="wpp" id="nome" required>
+                <input type="tel" placeholder="Digite o seu o número do seu whatsapp" name="wpp" id="whats" required />
 
                 <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Digite o seu Email" name="email" id="email" required>
+                <input type="text" placeholder="Digite o seu Email" name="email" id="email" required />
 
-                <textarea name="mensagem" placeholder="Digite aqui sua mensagem" id="mensagem" cols="30" rows="10"
-                    required></textarea>
+                <textarea name="mensagem" placeholder="Digite aqui sua mensagem" id="mensagem" cols="30" rows="10" required /></textarea>
 
                 <hr>
 
-                <button type="submit" class="btnEnviar" id="btnEnviar" onclick="enviarMensagem()">Enviar</button>
-            </div>
-
-        </form>
+                <button type="submit" class="btnEnviar" id="btnEnviar" >Enviar</button>
+			</form>
+          </div>
 		</div>	
     </section>
 
