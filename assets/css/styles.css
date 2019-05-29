@@ -354,3 +354,10 @@ table, th {
 #pricol{
 	width:400px;
 }
+
+#metade{
+	width:48%;
+	display : block;
+	float: left;
+	margin-right:20px;
+}

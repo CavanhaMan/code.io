@@ -134,12 +134,16 @@
 			<form name="enviaMensagem">
                 <label for="nome"><b>Nome</b></label>
                 <input type="text" placeholder="Digite o seu nome" name="nome" id="nome" required />
-
-                <label for="wpp"><b>Número whatsapp</b></label>
-                <input type="tel" placeholder="Digite o seu o número do seu whatsapp" name="wpp" id="whats" required />
-
-                <label for="email"><b>Email</b></label>
-                <input type="text" placeholder="Digite o seu Email" name="email" id="email" required />
+				<div id="metade">
+					<label for="wpp"><b>Número whatsapp</b></label>
+					<input type="tel" placeholder="Digite o seu o número do seu whatsapp" name="wpp" id="whats" required />
+				</div>
+				<div id="metade">
+					<label for="email"><b>Email</b></label>
+					<input type="text" placeholder="Digite o seu Email" name="email" id="email" required />
+				</div>
+                <label for="wpp"><b>Assunto</b></label>
+                <input type="text" placeholder="Assunto" name="assunto" id="assunto" required />
 
                 <textarea name="mensagem" placeholder="Digite aqui sua mensagem" id="mensagem" cols="30" rows="10" required /></textarea>
 
